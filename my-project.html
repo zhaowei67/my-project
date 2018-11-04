@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my project</title>   
+    <style>
+        h1,p,ul,li,img{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            background-color:rgb(255,242,227);
+            text-align:center;
+            font:14px/1.5 "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+        }
+        .btn{
+            display:inline-block;
+            margin:20px 5px;
+            background-color: #72b890;
+            padding:5px 15px;
+            border-radius: 3px;
+        }
+        .btn:hover{
+            opacity: 0.7;
+        }
+        .btn:active{
+            opacity:1;
+        }
+        .btn>a{
+            color:#fff;
+        }
+        .title{
+            font-size: 42px;
+            color:#87968e;
+            margin:20px 0;
+        }
+        .description{
+            font-size:1.2em;
+            color:#87968e;
+            margin：20px 0;
+        }
+        .img-des{
+            margin:20px 0;
+        }
+        .author>a{
+            color:#72b890;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">我的项目</h1>
+    <p class="description">一句话项目介绍</p>
+    <ul class="choose-project">
+        <li class="btn"><a href="#page1">项目1</a></li>
+        <li class="btn"><a href="#page2">项目2</a></li>
+        <li class="btn"><a href="#page3">项目3</a></li>
+        <li class="btn"><a href="#page4">项目4</a></li>
+        <li class="btn"><a href="#page5">项目5</a></li>
+    </ul>
+    <img class="img-des" src="http://cdn.jscode.me/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" alt="">
+    <ul class="more-info">
+        <li class="btn"><a href="#page6">查看源码</a></li>
+        <li class="btn"><a href="#page7">使用说明</a></li>
+    </ul>   
+    <p class="author">作者：<a href="#page8">我</a></p>
+</body>
+</html>
